@@ -1,0 +1,1312 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* First page */
+.firstPage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('./Photos/mainBackground.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: rgb(54, 108, 155);
+}
+
+#navebarsec {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+#headlogo img {
+    width: 70%;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+#navebarsec {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#navebarsec ul {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+#navebarsec ul a {
+    font-size: 1.5rem;
+    color: rgb(222, 230, 237);
+}
+
+#navebarsec ul a:hover {
+    color: #6663e9;
+}
+
+#headingline {
+    width: 90%;
+    height: 2px;
+    margin: auto;
+    background-color: #fff;
+}
+
+/* Below Head part */
+.firstsecpart {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 13%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    width: 60%;
+}
+
+#fhead {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    color: aliceblue;
+}
+
+#shead {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    color: aliceblue;
+}
+
+#fpara {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    width: 100%;
+    color: aliceblue;
+}
+
+#fbtn button {
+    background-color: #6663e9;
+    border-color: #6663e9;
+    border: none;
+    color: aliceblue;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border-radius: 2em;
+}
+
+#fbtn {
+    padding-bottom: 2%;
+}
+
+/* Logog list */
+
+#logosection {
+    background-color: rgb(243, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+    border-radius: 2rem;
+    padding: 20px;
+    height: 50%;
+    position: relative;
+    bottom: 2rem;
+}
+
+.logoline {
+    width: 10%;
+}
+
+@media (max-width:500px) {
+
+    /* .firstPage{
+        background-size: 50% 50%;
+    } */
+    #navebarsec ul li a {
+        display: none;
+    }
+
+    ul {
+        background-color: #6663e9;
+    }
+
+    .firstsecpart {
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 70px; */
+        text-align: center;
+    }
+
+    #fhead h1 {
+        font-size: 2rem;
+        width: 120%;
+        text-align: center;
+    }
+
+    #shead h1 {
+        font-size: 2rem;
+        text-align: center;
+        width: 120%;
+    }
+
+    #fpara p:nth-child(1) {
+        font-size: 2.8vw;
+        text-align: center;
+    }
+
+    #fpara p {
+        font-size: 2.8vw;
+        text-align: center;
+    }
+
+    #fpara {
+        margin-left: 3rem;
+    }
+
+    #fbtn {
+        padding-bottom: 2rem;
+    }
+
+    #logosection img {
+        width: 8%;
+    }
+}
+
+/* Secondpage */
+
+#seccontent {
+    text-align: center;
+}
+
+#seccontent h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#onerow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 25px;
+}
+
+
+/* One one */
+#oneone {
+    background-image: url('./Photos/cardImage1.png');
+    background-size: cover;
+    width: 22rem;
+    min-height: 20rem;
+    background-position: center;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    transition: all .5s ease-in-out;
+}
+
+#dataoneone {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(210, 227, 227);
+    border-radius: 1rem;
+    width: 14rem;
+    height: 5rem;
+    padding: 5px;
+    position: relative;
+    top: 30px;
+}
+
+#leftoneone {
+    line-height: 2rem;
+}
+
+#leftoneone h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#leftoneone h5 {
+    font-size: 1rem;
+    color: #6663e9;
+}
+
+#rgtoneone button {
+    background-color: #6663e9;
+    color: #fff;
+    border-radius: 3rem;
+    border-color: #6663e9;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#oneone:hover {
+    transform: scale(1.1);
+}
+
+/* one two */
+
+#onesec {
+    background-image: url('./Photos/cardImage2.png');
+    background-size: cover;
+    width: 22rem;
+    min-height: 20rem;
+    background-position: center;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    top: 25px;
+    transition: all .5s ease-in-out;
+}
+
+#dataonetwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(210, 227, 227);
+    border-radius: 1rem;
+    width: 14rem;
+    height: 5rem;
+    padding: 5px;
+    position: relative;
+    top: 30px;
+}
+
+#leftonetwo {
+    line-height: 2rem;
+}
+
+#leftonetwo h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#leftonetwo h5 {
+    font-size: 1rem;
+    color: #6663e9;
+}
+
+#rgtonetwo button {
+    background-color: #6663e9;
+    color: #fff;
+    border-radius: 3rem;
+    border-color: #6663e9;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#onesec:hover {
+    transform: scale(1.1);
+}
+
+/* one three */
+
+#onesthr {
+    background-image: url('./Photos/cardImage3.png');
+    background-size: cover;
+    width: 22rem;
+    min-height: 20rem;
+    background-position: center;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    top: 50px;
+    transition: all .5s ease-in-out;
+}
+
+#dataonethr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(210, 227, 227);
+    border-radius: 1rem;
+    width: 14rem;
+    height: 5rem;
+    padding: 5px;
+    position: relative;
+    top: 30px;
+}
+
+#leftonethr {
+    line-height: 2rem;
+}
+
+#leftonethr h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#leftonethr h5 {
+    font-size: 1rem;
+    color: #6663e9;
+}
+
+#rgtonethr button {
+    background-color: #6663e9;
+    color: #fff;
+    border-radius: 3rem;
+    border-color: #6663e9;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#onesthr:hover {
+    transform: scale(1.1);
+}
+
+/* Media quey for one row */
+@media (max-width:1190px) {
+    #onerow {
+        display: flex;
+        flex-wrap: nowrap;
+        /* flex-direction: column; */
+    }
+}
+
+@media (max-width:1210px) {
+    #onerow {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:500px) {
+    #oneone {
+        width: 20rem;
+    }
+
+    #onesec {
+        width: 20rem;
+    }
+
+    #onesthr {
+        width: 20rem;
+    }
+
+}
+
+/* second row */
+
+#tworow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 25px;
+    padding-top: 8rem;
+}
+
+
+/* Two one  */
+
+#twoone {
+    background-image: url('./Photos/cardImage4.png');
+    background-size: cover;
+    width: 22rem;
+    min-height: 20rem;
+    background-position: center;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    transition: all .5s ease-in-out;
+}
+
+#datatwone {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(210, 227, 227);
+    border-radius: 1rem;
+    width: 14rem;
+    height: 5rem;
+    padding: 5px;
+    position: relative;
+    top: 30px;
+}
+
+#lefttwoone {
+    line-height: 2rem;
+}
+
+#lefttwoone h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#lefttwoone h5 {
+    font-size: 1rem;
+    color: #6663e9;
+}
+
+#rgttwoone button {
+    background-color: #6663e9;
+    color: #fff;
+    border-radius: 3rem;
+    border-color: #6663e9;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#twoone:hover {
+    transform: scale(1.1);
+}
+
+/* Two two  */
+
+#twosec {
+    background-image: url('./Photos/cardImage5.png');
+    background-size: cover;
+    width: 22rem;
+    min-height: 20rem;
+    background-position: center;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 25px;
+    transition: all .5s ease-in-out;
+}
+
+#datatwotwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(210, 227, 227);
+    border-radius: 1rem;
+    width: 14rem;
+    height: 5rem;
+    padding: 5px;
+    position: relative;
+    top: 30px;
+}
+
+#lefttwotwo {
+    line-height: 2rem;
+}
+
+#lefttwotwo h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#lefttwotwo h5 {
+    font-size: 1rem;
+    color: #6663e9;
+}
+
+#rgttwotwo button {
+    background-color: #6663e9;
+    color: #fff;
+    border-radius: 3rem;
+    border-color: #6663e9;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#twosec:hover {
+    transform: scale(1.1);
+}
+
+/* Two three  */
+
+#twothr {
+    background-image: url('./Photos/cardImage6.png');
+    background-size: cover;
+    width: 22rem;
+    min-height: 20rem;
+    background-position: center;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 45px;
+    transition: all .5s ease-in-out;
+}
+
+#datatwothr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(210, 227, 227);
+    border-radius: 1rem;
+    width: 14rem;
+    height: 5rem;
+    padding: 5px;
+    position: relative;
+    top: 30px;
+}
+
+#lefttwothr {
+    line-height: 2rem;
+}
+
+#lefttwothr h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#lefttwothr h5 {
+    font-size: 1rem;
+    color: #6663e9;
+}
+
+#rgttwothr button {
+    background-color: #6663e9;
+    color: #fff;
+    border-radius: 3rem;
+    border-color: #6663e9;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#twothr:hover {
+    transform: scale(1.1);
+}
+
+/* Media quey for one row */
+@media (max-width:1270px) {
+    #tworow {
+        display: flex;
+        flex-wrap: nowrap;
+        /* flex-direction: column; */
+    }
+}
+
+@media (max-width:1210px) {
+    #tworow {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:500px) {
+    #twoone {
+        width: 20rem;
+    }
+
+    #twosec {
+        width: 20rem;
+    }
+
+    #twothr {
+        width: 20rem;
+    }
+
+}
+
+/* second row */
+
+#threerow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 25px;
+    padding-top: 8rem;
+}
+
+
+
+/* Two one  */
+
+#throne {
+    background-image: url('./Photos/cardImage7.png');
+    background-size: cover;
+    width: 22rem;
+    min-height: 20rem;
+    background-position: center;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    top: -50px;
+    transition: all .5s ease-in-out;
+}
+
+#datathrone {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(210, 227, 227);
+    border-radius: 1rem;
+    width: 14rem;
+    height: 5rem;
+    padding: 5px;
+    position: relative;
+    top: 30px;
+}
+
+#leftthrone {
+    line-height: 2rem;
+}
+
+#leftthrone h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#leftthrone h5 {
+    font-size: 1rem;
+    color: #6663e9;
+}
+
+#rgtthrone button {
+    background-color: #6663e9;
+    color: #fff;
+    border-radius: 3rem;
+    border-color: #6663e9;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#throne:hover {
+    transform: scale(1.1);
+}
+
+/* Two two  */
+
+#thrsec {
+    background-image: url('./Photos/cardImage8.png');
+    background-size: cover;
+    width: 22rem;
+    min-height: 20rem;
+    background-position: center;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    transition: all .5s ease-in-out;
+}
+
+#datathrtwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(210, 227, 227);
+    border-radius: 1rem;
+    width: 14rem;
+    height: 5rem;
+    padding: 5px;
+    position: relative;
+    top: 30px;
+}
+
+#leftthrtwo {
+    line-height: 2rem;
+}
+
+#leftthrtwo h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#leftthrtwo h5 {
+    font-size: 1rem;
+    color: #6663e9;
+}
+
+#rgtthrtwo button {
+    background-color: #6663e9;
+    color: #fff;
+    border-radius: 3rem;
+    border-color: #6663e9;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#thrsec:hover {
+    transform: scale(1.1);
+}
+
+/* Two three  */
+
+#thrthr {
+    background-image: url('./Photos/cardImage9.png');
+    background-size: cover;
+    width: 22rem;
+    min-height: 20rem;
+    background-position: center;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    top: 50px;
+    transition: all .5s ease-in-out;
+}
+
+#datathrthr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(210, 227, 227);
+    border-radius: 1rem;
+    width: 14rem;
+    height: 5rem;
+    padding: 5px;
+    position: relative;
+    top: 30px;
+}
+
+#leftthrthr {
+    line-height: 2rem;
+}
+
+#leftthrthr h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#leftthrthr h5 {
+    font-size: 1rem;
+    color: #6663e9;
+}
+
+#rgtthrthr button {
+    background-color: #6663e9;
+    color: #fff;
+    border-radius: 3rem;
+    border-color: #6663e9;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#thrthr:hover {
+    transform: scale(1.1);
+}
+
+/* Media quey for one row */
+@media (max-width:1270px) {
+    #threerow {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:1210px) {
+    #threerow {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:500px) {
+    #throne {
+        width: 20rem;
+    }
+
+    #thrsec {
+        width: 20rem;
+    }
+
+    #thrthr {
+        width: 20rem;
+    }
+
+}
+
+/* Third page */
+
+/* one row */
+#thirdonerow {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+#thirdpage {
+    margin-top: 10rem;
+}
+
+/* one onne left section */
+.throneoneleft {
+    width: 75%;
+}
+
+#thronetwoleft {
+    width: auto;
+    height: 0rem;
+}
+
+#throneoneleft img {
+    width: 32rem;
+    height: 30rem;
+}
+
+#thronetwoleft img {
+    width: 23.3rem;
+    height: 21rem;
+    border-radius: 3rem;
+    position: relative;
+    left: 6rem;
+    bottom: 29rem;
+}
+
+/* Right section */
+#throneright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+#thehadoneone {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    color: rgb(65, 60, 60);
+}
+
+#thehadonetwo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    color: rgb(65, 60, 60);
+}
+
+#paraoneone {
+    font-size: 1rem;
+    line-height: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(65, 60, 60);
+}
+
+#thronebtn button {
+    background-color: #6663e9;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-color: #6663e9;
+}
+
+/* media query */
+
+@media (max-width:1050px) {
+    #throneleft {
+        float: left;
+    }
+}
+
+@media (max-width:1050px) {
+    #throneoneleft img {
+        width: 26rem;
+    }
+
+    #thronetwoleft img {
+        width: 18.8rem;
+        position: relative;
+        left: 5rem;
+        bottom: 30rem;
+        height: 21rem;
+    }
+
+    #thirdonerow {
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #thehadoneone {
+        font-size: 5vw;
+    }
+
+    #thehadonetwo {
+        font-size: 5vw;
+    }
+
+    #paraoneone {
+        font-size: 3vw;
+    }
+}
+
+/* Two row */
+
+
+/*  */
+
+#thrtworight {
+    float: right;
+}
+
+#thrtwooneleft {
+    height: 0px;
+}
+
+#thrtwooneleft img {
+    position: relative;
+    left: 38px;
+}
+
+#thrtworight img {
+    height: 300px;
+    width: 65%;
+    border-radius: 3rem;
+}
+
+#thrtwotwoleft img {
+    height: 400px;
+    width: 90%;
+}
+
+#thirdtworow {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+/* row two left section */
+#thrtwoleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-left: 15rem;
+}
+
+#thehadtwoone {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    color: rgb(65, 60, 60);
+}
+
+#thehadtwotwo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    color: rgb(65, 60, 60);
+}
+
+#paratwoone {
+    font-size: 1rem;
+    line-height: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(65, 60, 60);
+}
+
+#thrtwobtn button {
+    background-color: #6663e9;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-color: #6663e9;
+}
+
+
+@media (max-width:1200px) {
+    #thirdtworow {
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 10rem;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:1050px) {
+
+    #thehadtwoone {
+        font-size: 5vw;
+    }
+
+    #thehadtwotwo {
+        font-size: 5vw;
+    }
+
+    #paratwoone {
+        font-size: 3vw;
+    }
+
+    #thrtwooneleft img {
+        /* float: right; */
+        width: 18rem;
+        height: 19.5rem;
+        position: relative;
+        left: 2rem;
+    }
+    #thrtwotwoleft img{
+        width: 25rem;
+        height: 25rem;
+    }
+
+    #thrtwoleft {
+        margin-left: 0;
+    }
+}
+
+
+/* third page */
+
+#fourthpage{
+   margin-top: 7rem;
+   background-color: #6663e9;
+   width: 90%;
+   margin: auto;
+   border-radius: 5rem;
+}
+.bgdesign{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+    /* text-align: center; */
+}
+.bgdesign{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/* Inbox design */
+
+#subscrheadingone h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    font-size: 3vw;
+}
+#subscrheadingtwo h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    font-size: 3vw;
+}
+#parasubscone{
+    margin-top: 2rem;
+}
+#parasubscone p{
+    color: #fff;
+    font-size: 1.5vw;
+}
+#parasubsctwo p{
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+/* email  */
+
+#emailnoti{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+#emailnoti button{
+    color: #201ea7;
+    background-color: #fff;
+    border-radius: 5rem;
+    padding: 5px 20px;
+    height: 35px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.5vw;
+    border-color: white;
+}
+#entema{
+    background-color: #5654D1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 35px;
+    width: 23rem;
+    border-radius: 15px;
+    padding-left: 1rem;
+    /* background-color: #fff; */
+
+}
+#emailbtn input{
+    background-color: #5654D1;
+    border-radius: 3rem;
+    border-color: #5654D1;
+    height: 28px;
+    width: 21rem;
+    text-align: center;
+    caret-color: #c8c1b9;
+}
+#emailbtn input::placeholder{
+    color: white;
+    opacity: 1;
+    letter-spacing: 3px;
+}
+
+@media (max-width:650px){
+    #fourthpage{
+        margin-top: 3rem;
+    }
+    #emailnoti{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #entema{
+        width: 17rem;
+        gap: 0px;
+    }
+    #emailbtn input{
+        width: 15rem;
+    };
+    #emailbtn input::placeholder{
+        letter-spacing: normal;
+    }
+    .bgdesign{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    #parasubscone{
+        margin-top: 5px;
+    }
+    #emailnoti{
+        margin-top:15px;
+    }
+    #emailnoti button{
+        padding-bottom: 5px;
+    }
+
+    #subscrheadingone h1{
+        font-size: 5vw;
+    }
+    #subscrheadingtwo h1{
+        font-size: 5vw;
+    }
+    #parasubscone p{
+        font-size: 2vw;
+    }
+    #parasubsctwo p{
+        font-size: 2vw;
+    }
+
+}
+
+/* Bottom page */
+
+footer{
+    margin-top: 5rem;
+}
+#bottom{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4rem;
+}
+#leftbottom{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+#bottomoneonehead h3{
+    font-weight: 500;
+}
+
+/* colom section */
+
+#bottomcolone{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+#colonehead{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#colonehead h3{
+    font-weight: 200;
+}
+
+#coltwohead{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#coltwohead h3{
+    font-weight: 200;
+}
+
+#colthreehead{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#colthreehead h3{
+    font-weight: 200;
+}
