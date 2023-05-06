@@ -206,7 +206,7 @@ ul li {
 
 /* One one */
 #oneone {
-    background-image: url('./Photos/cardImage1.png');
+    background-image: url('cardImage1.png');
     background-size: cover;
     width: 22rem;
     min-height: 20rem;
@@ -266,7 +266,7 @@ ul li {
 /* one two */
 
 #onesec {
-    background-image: url('./Photos/cardImage2.png');
+    background-image: url('cardImage2.png');
     background-size: cover;
     width: 22rem;
     min-height: 20rem;
@@ -328,7 +328,7 @@ ul li {
 /* one three */
 
 #onesthr {
-    background-image: url('./Photos/cardImage3.png');
+    background-image: url('cardImage3.png');
     background-size: cover;
     width: 22rem;
     min-height: 20rem;
@@ -434,7 +434,7 @@ ul li {
 /* Two one  */
 
 #twoone {
-    background-image: url('./Photos/cardImage4.png');
+    background-image: url('cardImage4.png');
     background-size: cover;
     width: 22rem;
     min-height: 20rem;
@@ -494,7 +494,7 @@ ul li {
 /* Two two  */
 
 #twosec {
-    background-image: url('./Photos/cardImage5.png');
+    background-image: url('cardImage5.png');
     background-size: cover;
     width: 22rem;
     min-height: 20rem;
@@ -556,7 +556,7 @@ ul li {
 /* Two three  */
 
 #twothr {
-    background-image: url('./Photos/cardImage6.png');
+    background-image: url('cardImage6.png');
     background-size: cover;
     width: 22rem;
     min-height: 20rem;
@@ -663,7 +663,7 @@ ul li {
 /* Two one  */
 
 #throne {
-    background-image: url('./Photos/cardImage7.png');
+    background-image: url('cardImage7.png');
     background-size: cover;
     width: 22rem;
     min-height: 20rem;
@@ -725,7 +725,7 @@ ul li {
 /* Two two  */
 
 #thrsec {
-    background-image: url('./Photos/cardImage8.png');
+    background-image: url('cardImage8.png');
     background-size: cover;
     width: 22rem;
     min-height: 20rem;
@@ -785,7 +785,7 @@ ul li {
 /* Two three  */
 
 #thrthr {
-    background-image: url('./Photos/cardImage9.png');
+    background-image: url('cardImage9.png');
     background-size: cover;
     width: 22rem;
     min-height: 20rem;
